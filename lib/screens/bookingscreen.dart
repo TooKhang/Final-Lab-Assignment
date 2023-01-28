@@ -64,7 +64,7 @@ class _BookingScreenState extends State<BookingScreen> {
     return WillPopScope(
       onWillPop: () async => false,
       child: Scaffold(
-          appBar: AppBar(title: const Text("Booking"), actions: [
+          appBar: AppBar(title: const Text("Homestay Owner"), actions: [
             IconButton(
                 onPressed: _registrationForm,
                 icon: const Icon(Icons.app_registration)),

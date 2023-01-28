@@ -63,7 +63,7 @@ class _MainScreenState extends State<MainScreen> {
     return WillPopScope(
         onWillPop: () async => false,
         child: Scaffold(
-          appBar: AppBar(title: const Text("Buyers"), actions: [
+          appBar: AppBar(title: const Text("Search Homestays"), actions: [
             IconButton(
               icon: const Icon(Icons.search),
               onPressed: () {
@@ -81,7 +81,7 @@ class _MainScreenState extends State<MainScreen> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        "Products/services ($numberofresult found)",
+                        "Available Homestay ($numberofresult found)",
                         style: const TextStyle(
                             fontSize: 16, fontWeight: FontWeight.bold),
                       ),

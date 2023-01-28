@@ -91,7 +91,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   const Padding(
                     padding: EdgeInsets.all(8.0),
                     child: Text(
-                      "Product/service details",
+                      "Homestay details",
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.w600,
@@ -228,7 +228,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                     Flexible(
                         flex: 5,
                         child: CheckboxListTile(
-                          title: const Text("Lawfull Item?"), //    <-- label
+                          title: const Text("Can Smoke?"), //    <-- label
                           value: _isChecked,
                           onChanged: (bool? value) {
                             setState(() {
@@ -240,7 +240,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   SizedBox(
                     width: 200,
                     child: ElevatedButton(
-                      child: const Text('Update Product'),
+                      child: const Text('Update Homestay'),
                       onPressed: () => {_updateProductDialog()},
                     ),
                   ),
@@ -277,7 +277,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
           shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(20.0))),
           title: const Text(
-            "Update this product/service?",
+            "Update this homestay?",
             style: TextStyle(),
           ),
           content: const Text("Are you sure?", style: TextStyle()),

@@ -29,7 +29,7 @@ class _MainMenuWidgetState extends State<MainMenuWidget> {
             ),
           ),
           ListTile(
-            title: const Text('Buyer'),
+            title: const Text('Search Homestays'),
             onTap: () {
               Navigator.pop(context);
               // Navigator.push(context,
@@ -42,7 +42,7 @@ class _MainMenuWidgetState extends State<MainMenuWidget> {
             },
           ),
           ListTile(
-            title: const Text('Seller'),
+            title: const Text('Homestay Owner'),
             onTap: () {
               Navigator.pop(context);
               // Navigator.push(
